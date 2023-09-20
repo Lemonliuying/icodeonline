@@ -1,0 +1,96 @@
+.icode__cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: var(--background-img);
+}
+
+
+/* 预约信息填写 */
+.icode__cta-groupcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.icode__cta-groupcontent__title {
+    color: #FFF;
+}
+
+
+/* 预约信息文字box属性 */
+.icode__cta-groupcontent__name,
+.icode__cta-groupcontent__telephone {
+    display: flex;
+    font-size: 22px;
+    color: #FFF;
+    margin: 0rem auto 0rem 6rem;
+}
+
+/* 预约信息文字属性 */
+.icode__cta-groupcontent__name p,
+.icode__cta-groupcontent__telephone p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+/* 预约信息input属性 */
+.icode__cta-groupcontent__name input, 
+.icode__cta-groupcontent__telephone input{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 300px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    outline:none;
+}
+
+/* 免费试听课程btn的box属性 */
+.icode__cta-groupcontent__button {
+    display: flex;
+    height: 56px;
+    max-width: 327px;
+    width: 100%;
+    /* margin: 0rem auto 0rem 6rem; */
+    margin-top: 2rem;
+    margin-left: 0rem;
+}
+
+.icode__cta-groupcontent__button button {
+    flex: 2;
+    min-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    border-radius: 32px;
+    color:#0e1540;
+    cursor: pointer;
+    border: 2px solid var(--background-img);
+}
+
+
+/* classdemo图片 */
+.icode__cta-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    width: 50%;
+    
+}
+
+.icode__cta-pic img {
+    width: 100%;
+    height: 100%;
+
+}

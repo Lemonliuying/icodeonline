@@ -1,0 +1,16 @@
+.icode__header {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 4rem;
+}
+
+.icode__header-bg {
+    display: block;
+    color: #fbfbfa;
+    text-align: center;
+    background-image: linear-gradient(to right, #5225ee, #ba02fd);
+    border-radius: 32px;
+    padding-top: 32px;
+    position: relative;
+}

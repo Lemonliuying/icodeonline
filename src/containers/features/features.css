@@ -1,0 +1,156 @@
+.icode__features {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icode__features-font {
+    display: flex;
+}
+
+.icode__features-font h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color:rgba(14, 21, 64, var(--tw-text-opacity));
+    /* font-size: 2rem; */
+    line-height: 2.5rem;
+    margin-bottom: 16px;
+    display: block;
+    margin-block: 1em;
+}
+.icode__features-language {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.icode__features-language__scratch {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icode__features-language__scratch-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 6rem;
+}
+
+.icode__features-language__scratch img {
+    display: flex;
+}
+
+.icode__features-language__scratch-font h3 {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mediumblue;
+    /* 行间距 */
+    line-height: 50px; 
+    margin-left: 6rem; 
+}
+
+.icode__features-language__scratch-font p{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    /* 行间距 */
+    line-height: 30px; 
+    margin-left: 6rem; 
+
+}
+
+.icode__features-language__python {
+    /* flex: 1; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.icode__features-language__python-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 2rem 8rem 2rem 8rem;
+}
+
+.icode__features-language__python img {
+    display: flex;
+    width: 150%;
+    height: 100%;
+}
+
+.icode__features-language__python-font h3 {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mediumblue;
+    /* 行间距 */
+    line-height: 50px; 
+    margin-right: 6rem; 
+}
+
+.icode__features-language__python-font p{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    /* 行间距 */
+    line-height: 30px; 
+    margin-right: 6rem; 
+
+}
+
+.icode__features-language__cpp {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icode__features-language__cpp-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 6rem;
+}
+
+.icode__features-language__cpp img {
+    display: flex;
+    width: 150%;
+    height: 120%;
+}
+
+.icode__features-language__cpp-font h3 {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mediumblue;
+    /* 行间距 */
+    line-height: 50px; 
+    margin-left: 6rem;
+}
+
+.icode__features-language__cpp-font p{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    /* 行间距 */
+    line-height: 30px; 
+    margin: 2rem 8rem 2rem 6rem; 
+
+
+}

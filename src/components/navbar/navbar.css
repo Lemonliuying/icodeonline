@@ -1,0 +1,91 @@
+/* navbar container setting */
+.icode__navbar {
+    width: 100%;
+    background-color: var(--color-bg);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    /* padding: 2rem 6rem; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* 针对logo的链接 */
+.icode__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icode__navbar_logo {
+    width: 20%;
+    margin-left: 90px;
+}
+
+.icode__navbar_logo img {
+    width: 72px;
+    height: 72px;
+}
+
+/* 菜单布局 */
+.icode__navbar-links-containers {
+    /* width: 55%; */
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+}
+
+/* 按钮布局 */
+.icode__navbar-signgroup {
+    /* width: 35%; */
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items:center;
+    align-self: center;
+}
+
+/* 设置菜单字体 */
+.icode__navbar-links-containers p,
+.icode__navbar-signgroup p{
+    color: #5225ee;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight: 600;
+    font-size: 18px;
+
+    /* 菜单间距分布 */
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.icode__navbar-signgroup button {
+    line-height: initial;
+    padding-right: 30px;
+    color: #fbfbfa;
+    text-transform: none;
+    background: var(--gradient--img);
+    /* button弧度大小 */
+    border-radius: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 16px 32px 16px 24px;
+
+    font-family: PingFangSC-Medium,PingFang SC;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    /* button 阴影 */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1); 
+
+}
+
