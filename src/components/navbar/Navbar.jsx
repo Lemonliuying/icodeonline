@@ -22,7 +22,7 @@ const Navbar = () => {
 
             <div className='icode__navbar-signgroup'>
                 <p><a href='/Login'>注册</a></p>
-                <Link to='../component/login/Login.jsx'>
+                <Link to='/Login'>
                 <button type='button'>免费试听</button>
                 </Link>
             </div>
